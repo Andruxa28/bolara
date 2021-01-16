@@ -265,76 +265,6 @@
         </section>
         <!-- End Below Area -->
 
-        <!-- Start Customer Area -->
-        <section class="customer-area ptb-100">
-            <div class="container">
-                <div class="section-title">
-                    <span>Customers say</span>
-                    <h2>What customers say about Us</h2>
-                </div>
-
-                <div class="customer-slider owl-carousel owl-theme">
-                    <div class="customer-item">
-                        <img src="{{asset ('assets/orange/img/customer/customer-1.jpg')}}" alt="image">
-                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.”</p>
-
-                        <div class="customer-info">
-                            <h3>Robert jakech</h3>
-                            <span>Software engineer</span>
-                        </div>
-
-                        <div class="icon">
-                            <i class="flaticon-right-quotation-mark"></i>
-                        </div>
-                    </div>
-
-                    <div class="customer-item">
-                        <img src="{{asset ('assets/orange/img/customer/customer-2.jpg')}}" alt="image">
-                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.”</p>
-
-                        <div class="customer-info">
-                            <h3>Joseph nakabale</h3>
-                            <span>Software engineer</span>
-                        </div>
-
-                        <div class="icon">
-                            <i class="flaticon-right-quotation-mark"></i>
-                        </div>
-                    </div>
-
-                    <div class="customer-item">
-                        <img src="{{asset ('assets/orange/img/customer/customer-1.jpg')}}" alt="image">
-                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.”</p>
-
-                        <div class="customer-info">
-                            <h3>Robert jakech</h3>
-                            <span>Software engineer</span>
-                        </div>
-
-                        <div class="icon">
-                            <i class="flaticon-right-quotation-mark"></i>
-                        </div>
-                    </div>
-
-                    <div class="customer-item">
-                        <img src="{{asset ('assets/orange/img/customer/customer-2.jpg')}}" alt="image">
-                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.”</p>
-
-                        <div class="customer-info">
-                            <h3>Joseph nakabale</h3>
-                            <span>Software engineer</span>
-                        </div>
-
-                        <div class="icon">
-                            <i class="flaticon-right-quotation-mark"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Customer Area -->
-
-
         <!-- Start Blog Area -->
         @if(count($last_articles))
         <section class="blog-area pt-100 pb-70">
@@ -353,7 +283,7 @@
 
                             <div class="post-content">
                                 <h3>
-                                    <a href="blog-details.html">{{$article->short_name}}</a>
+                                    <a href="#">{{$article->short_name}}</a>
                                 </h3>
 
                                 <ul class="post-meta">
