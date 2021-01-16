@@ -154,9 +154,6 @@
             </div>
         </section>
         <!-- End Protect Area -->
-
-
-
         <!-- Start Credit Card Area -->
         <section class="credit-card-area bg-ffffff">
             <div class="container">
